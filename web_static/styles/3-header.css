@@ -1,0 +1,18 @@
+header {
+	background-color: white;
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid #CCC;
+	position: relative;
+}
+
+header::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 20px;
+	height: 100%;
+	width: 142px;
+	background-image: url("../images/logo.png");
+	background-position: center;
+}
